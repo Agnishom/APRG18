@@ -34,3 +34,38 @@
   ```
   removeDuplicates = lambda l: list(set(l))
   ```
+
+* Which of the two programs below run without errors? Why?
+  * Program 1
+    ```
+    def f(n):
+        if n == 0:
+            return
+        print("inside f")
+        x = g(n-1)
+
+    def g(m):
+        if m == 0:
+            return
+        print("inside g")
+        y = f(m-1)
+
+    z = f(7)
+    ```
+  * Program 2
+    ```
+    def f(n):
+        if n == 0:
+            return
+        print("inside f")
+        x = g(n-1)
+
+    z = f(7)
+
+    def g(m):
+        if m == 0:
+            return
+        print("inside g")
+        y = f(m-1)
+
+    ```
