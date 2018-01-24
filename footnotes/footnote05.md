@@ -12,7 +12,6 @@
 * What does the `self` that is passed on in class methods in idiomatic python stand for?
 
 * Here is an interesting puzzler about circular linked lists. (Or maybe this is not about linked lists, if you do not want to think that way)
-  *
 
     > You are a servant in a palace. The palace is in the shape of a circle, and you do not know how many rooms there are in the palace.
     >
