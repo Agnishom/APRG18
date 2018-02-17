@@ -29,9 +29,12 @@ class BinarySearchTree:
     # the class for the BinarySearchTree
     def __init__(self, initialList = None):
         # initialList is a list of (key, val) pairs
+        # initialize the ._isEmpty flag with True
+        self._isEmpty = True
         if initialList == None:
             # if initialList is None, set self.isEmpty to True
-            self.isEmpty = True
+            # but this is already the case, so move on
+            pass
         else:
             # first shuffle the list
             # (Think: Why is doing this a good idea?)
@@ -40,7 +43,7 @@ class BinarySearchTree:
             ...
     def isEmpty(self):
         # tells if the SearchTree is Empty
-        return self.isEmpty
+        return self._isEmpty
     def count(self, key):
         # if the given key is not present return 0
         # if it is present return the associated value
