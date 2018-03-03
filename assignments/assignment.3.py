@@ -74,7 +74,7 @@ class Node:
             if data < self.d1:
                 # call this function recursively on the left subtree
                 ...
-            elif data > self.d3:
+            elif data > self.d2:
                 # call this function recursively on the right subtree
                 ...
             else:
