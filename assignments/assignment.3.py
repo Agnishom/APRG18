@@ -120,4 +120,4 @@ class TwoThreeTree:
         if self.isEmpty:
             return False
         else:
-            self.root.search(data)
+            return self.root.search(data)
