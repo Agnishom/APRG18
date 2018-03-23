@@ -27,15 +27,10 @@ def sequenceJump(markings):
 	return ...
 
 def main():
-    map1 = """
-    111000
-    100010
-    001001
-    010101
-    100000
-    000111
-    """
+    map1 = "111000\n100010\n001001\n010101\n100000\n000111"
+    map2 = "111\n111\n111"
     print(countIslands(map1) == 4) # should print True
+    print(countIslands(map2) == 1) # should print True
     graph1 = {1: [2, 3], 2: [1, 3], 3: [1, 2, 4], 4: [3, 5, 6], 5: [4, 6], 6: [4, 5]}
     print(countBridges(6, graph1) == 1) # should print True
 
