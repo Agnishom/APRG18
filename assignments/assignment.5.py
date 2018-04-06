@@ -55,10 +55,16 @@ def main():
     print(largestSumSubsequence(list1) == 7) #should print True
     intervals1 = [(1, 2), (2, 3), (5, 7), (6, 7), (10, 10)]
     print(freeTime(0, 10, intervals1) == 4) # should print True
+    medianKeeperInstance = MedianKeeper()
+    medianKeeperInstance.update(1)
+    print(medianKeeperInstance.query() == 1) # should print True (since the current set is {1})
+    medianKeeperInstance.update(5)
+    medianKeeperInstance.update(3)
+    print(medianKeeperInstance.query() == 3) # should print True (since the current set is {1, 3, 5})
     graph1 = {0: [(1, 2)], 1: [(1, 3)], 2: [(1, 0), (2, 3)], 3:[(2, 2), (1, 1)]}
     graph2 = {0: [(1, 2)], 1: [(1, 3)], 2: [(1, 0), (1, 3)], 3:[(1, 2), (1, 1)]}
     print(not canTravel(1, graph1)) # should print True
-    print(canTravel(1, graph2)) # should print False
+    print(canTravel(1, graph2)) # should print True
 
 if __name__ == "__main__":
     main()
