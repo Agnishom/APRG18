@@ -17,7 +17,7 @@ This repository contains some supplementary material that we generated as teachi
 * [Problemsets](https://github.com/Agnishom/APRG18/tree/master/assignments)
     * Some problems we generated for assignments
 
-**External Resources** 
+**See Also:** 
 
 * [Advanced Programming, 2015](http://www.cmi.ac.in/~madhavan/courses/prog2-2015/index.php)
   * The same course taught by [Madhavan Mukund](http://www.cmi.ac.in/~madhavan/) in 2015.
